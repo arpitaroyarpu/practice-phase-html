@@ -1,0 +1,40 @@
+q{
+    font-size: 25px;
+}
+
+img{
+    width: 200px;
+}
+table,tr,td,th{
+
+    border: 1px solid slateblue;
+    border-collapse: collapse;   
+    padding: 10px;
+}  
+table{
+    width: 100%;
+    margin-bottom: 10px;
+}
+th{
+    height: 50px;
+    text-align: left;
+    color: azure;
+    background: tomato;
+    border: 1px solid tomato;
+}
+td{
+    color: azure;
+    background: rgb(85, 38, 30);
+    border: 1px solid rgb(34, 8, 4);
+    height: 35px;
+    vertical-align: center;
+}
+tr:hover th,tr:hover td{
+background: slateblue;
+}
+div{
+    width: 450px;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: scroll;
+}
